@@ -121,7 +121,7 @@ const Signup = () => {
           />
           {error && <p className="text-red-500 text-sm pb-2.5">{error}</p>}
           <button type="submit" className="btn-primary">
-            LOGIN
+            SIGNUP
           </button>
           <p>
             Allrady an account?{""}
