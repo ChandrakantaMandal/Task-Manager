@@ -58,7 +58,7 @@ const Signup = () => {
         profileImageUrl,
       });
 
-      console.log("Signup response:", response.data); // 👈 debug
+      
 
       const { token, role } = response.data;
       if (token) {
@@ -72,7 +72,7 @@ const Signup = () => {
         }
       }
     } catch (error) {
-      console.error("Signup error:", error); // 👈 debug
+     
       if (error.response && error.response.data.message) {
         setError(error.response.data.message);
       } else {
